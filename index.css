@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+}
+
+.container{
+    width: 550px;
+    height: 720px;
+    margin: 0 auto;
+    background: #1F2937;
+}
+
+
+
+.headder{
+    text-align: center;
+    color: white;
+    background: #3A69D2;
+    height: 190px;
+}
+
+.headder h1{
+    padding-top: 12%;
+    font-weight: bolder;
+    line-height: 20px;
+    letter-spacing: -2%;
+    font-size: 42px;
+}
+
+.headder p {
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.options{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.choiceBtn{
+    background: #D1D4F4;
+    color: #4A4E74;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: normal;
+    line-height: 16px;
+    transition: .1s ease-in-out;
+}
+
+.choiceBtn:hover{
+    border: 3px solid white;
+    transition: .1s ease-in-out;
+}
+
+.tasks{
+    padding: 0px 40px 0px 40px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.taskHead1{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: left;
+}
+
+.taskTotal1{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: right;
+}
+
+.total{
+   color: #D5D4D8;
+   border-top: 1px solid #C3C6DB ;
+   margin: 0 40px 0px 40px; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.totalHead{
+   font-size: 12px;
+   line-height: 20px;
+   text-align: left;
+}
+
+.totalAmountHead{
+   font-size: 12px;
+   line-height: 20px;
+   text-align: right   
+}
+
+.totalAmount{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+.sendInvoiceButton{
+    margin-top: 40px;
+    grid-column: 1/3;
+    background: #3A69D2;
+    border: none;
+    height: 45px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sendInvoiceButton:hover{
+    opacity: .9;
+    transition: .1s ease-in-out;
+}
+
+.sendInvoiceButton svg{
+    height: 25px;
+    vertical-align: -6px;
+    margin-right: 7px;
+}
+
+.taskHeadActive{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.taskTotalActive{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.spanDollar{
+    font-weight: lighter;
+    color: #918E9B;
+}
+
+.removeBtn{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 20px;
+    vertical-align: 3px;
+    cursor: pointer;
+    color: #918E9B;
+}
