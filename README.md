@@ -1,4 +1,4 @@
-# Invoice Creator
+## Invoice Creator
 
 This is a solution to a solo project from [Scrimba](https://www.scrimba.com).
 Solo projects are meant to challenge the skills you've learnt so far through the courses; there is no solution given by Scrimba.
