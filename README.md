@@ -22,3 +22,7 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 - Mobile-first workflow
 - Dark version
 - Figma design files from Scrimba
+
+## Live Site
+
+[Invoice Creator](https://vladeanclaudiu.github.io/InvoiceCreator/)
